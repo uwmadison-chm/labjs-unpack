@@ -9,10 +9,7 @@ import sqlite3
 
 import csv
 
-
-def ms(seconds):
-    return math.floor(seconds * 1000)
-
+# TODO: incomplete, use the R script instead
 
 class Unpacker():
     def __init__(self, path):
